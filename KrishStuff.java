@@ -8,7 +8,10 @@ Srinjoy
 
  */
 
-public class Krishit {
+public class KrishStuff {
+    private static final String menu = "Which would you like to learn about? \n" +
+            "Harlem \n" + "Srinjoy \n" + "The Bean \n";  // @TODO
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Krish Stuff Database! Here you can learn all " +
@@ -16,5 +19,6 @@ public class Krishit {
         System.out.println("This database was made by Vivek Chudasama, an exemplary student procrastinating on his" +
                 " computer science midterm :) He made this database as a present for Krish's " +
                 "8th -- sorry, 18th -- birthday. Happy birthday buddy.");
+        System.out.println(menu);
     }
 }
