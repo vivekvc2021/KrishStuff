@@ -63,7 +63,10 @@ public class KrishStuff {
                         "over-dramatasizes this by referring to it as the 'Super Mario Galaxy Scandal', when in" +
                         "reality it is quite civil and not at all a scandal.";
             case "6":
-                return "The History of Age\n" + "";
+                return "The History of Age\n" + "On the 31st of November, two days prior to his eighteenth birthday, \n" +
+                        "Krish decided it would be a good idea to shout 'I'm a minor!' in the dining hall, 'Windsor.'\n" +
+                        " It has long been debated whether this was a good idea, but Mr. Raj clearly decided it was\n" +
+                        " when he sacrificed his morals for $10.";
             case "7":
                 return "The Fable of Vision\n" + "";
             case "8":
