@@ -27,7 +27,7 @@ public class KrishStuff {
             System.out.println();
             System.out.println(menu);
             String answer = scanner.nextLine();
-            if (answer.equals("4")) {
+            if (answer.equals("9")) {
                 keepGoing = false;
                 break;
             } else {
@@ -73,11 +73,13 @@ public class KrishStuff {
                         "Krish once thought that he cured his blindness. In reality, it was just sleep deprivation\n" +
                         " and Jägermeister showing him how dumb he really is.";
             case "8":
-                return "The Chronicle of Thomas\n" + "";
+                return "The Chronicle of Thomas\n" + "Krish is often very dull, and enjoys mispronouncing names for fun.\n" +
+                        "However, when it comes to Thomas, Krish pronounces it with the th-sound, so 'thom-as' rather\n" +
+                        "than the more colloquial 'tom-as'";
             case "9":
                 return "Ok, you have quit!";
             default:
-                return "That's not a valid answer! Silly goose.";
+                return "That's not a valid input! Silly goose.";
         }
     }
 }
