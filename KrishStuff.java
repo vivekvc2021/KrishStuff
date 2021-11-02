@@ -43,8 +43,9 @@ public class KrishStuff {
             case "1":
                 return "The Tale of the Homeland\n" +
                         "Harlem is a place where our Krish likes to pretend he grew up! Of course," +
-                        " in reality he is from San Jose, CA (but likes to pretend he's from Cupertino) " +
-                        ".";
+                        " in reality he is from San Jose, CA (but \n likes to pretend he's from Cupertino) " +
+                        "Of course, Krish will now renege on this idea and say that he is from San Jose, due to \n" +
+                        "himself becoming 18. This is a lie.";
             case "2":
                 return "The Love Story\n" + "Srinjoy is possibly the love of Krish's life. Krish finds ways to bring Srinjoy " +
                         "into every conversation, regardless of whether Srinjoy is relevant in the conversation." +
@@ -68,7 +69,9 @@ public class KrishStuff {
                         " It has long been debated whether this was a good idea, but Mr. Raj clearly decided it was\n" +
                         " when he sacrificed his morals for $10.";
             case "7":
-                return "The Fable of Vision\n" + "";
+                return "The Fable of Vision\n" + "Krish is blind. In a dark and stormy night under the influence, \n" +
+                        "Krish once thought that he cured his blindness. In reality, it was just sleep deprivation\n" +
+                        " and Jägermeister showing him how dumb he really is.";
             case "8":
                 return "The Chronicle of Thomas\n" + "";
             case "9":
