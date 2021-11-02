@@ -1,10 +1,12 @@
 import java.util.*;
 
 /*
-Krish Shit:
+Krish Stuff:
 Harlem
 The Bean
 Srinjoy
+Short
+Super Mario Galaxy Scandal
 
  */
 
@@ -15,15 +17,18 @@ public class KrishStuff {
             "2. Srinjoy \n" +
             "3. The Bean \n" +
             "4. Short \n" +
-            "5. [Quit]";  // @TODO
+            "5. Super Mario Galaxy Scandal \n" +
+            "6. [Quit]";  // @TODO
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Krish Stuff Database! Here you can learn all " +
                 "about Krishenraj Ashok, the man-child from San Jose, California!");
+        Thread.sleep(3000);
         System.out.println("This database was made by Vivek Chudasama, an exemplary student procrastinating on his" +
-                " computer science midterm :) He made this database as a present for Krish's " +
+                " computer science midterm :) \nHe made this database as a present for Krish's " +
                 "8th -- sorry, 18th -- birthday. Happy birthday buddy.");
+        Thread.sleep(3000);
         boolean keepGoing = true;
         while (keepGoing) {
             System.out.println(menu);
@@ -41,22 +46,27 @@ public class KrishStuff {
     public static String response(String answer) {
         switch(answer) {
             case "1":
-                return "Harlem is a place where our Krish likes to pretend he grew up! Of course," +
+                return "Harlem\n" + "Harlem is a place where our Krish likes to pretend he grew up! Of course," +
                         " in reality he is from San Jose, CA (but likes to pretend he's from Cupertino) " +
                         ".";
             case "2":
-                return "Srinjoy is possibly the love of Krish's life. Krish finds ways to bring Srinjoy " +
+                return "Srinjoy\n" + "Srinjoy is possibly the love of Krish's life. Krish finds ways to bring Srinjoy " +
                         "into every conversation, regardless of whether Srinjoy is relevant in the conversation." +
                         " If you would like to visit Srinjoy, you can find him in the McCutcheon Hall.";
             case "3":
-                return "The Bean is a structure in Chicago, Illinois, built by architect and " +
+                return "The Bean\n" + "is a structure in Chicago, Illinois, built by architect and " +
                         "VantaBlack creator Anish Kapoor (whom we colloquiolly refer to as Rich Anish). " +
                         "For some reason, Krish is under the impression that The Bean is the coolest place in existence" + "" +
                         "despite how overrated it is. Weirdly, Krish has not talked about the Bean as much " +
                         "after visiting the Bean, a phenomenon humanity attributes to the overrated-ness of the Bean.";
             case "4":
-                return "Krish is short.";
+                return "Short\n" + "Krish is short.";
             case "5":
+                return "Super Mario Galaxy Scandal\n" + "Krish coerced Srinjoy (for information on Srinjoy, " +
+                        "type '2') into breaking the law by selling a faulty game to GameStop. Krish " +
+                        "over-dramatasizes this by referring to it as the 'Super Mario Galaxy Scandal', when in" +
+                        "reality it is quite civil and not at all a scandal.";
+            case "6":
                 return "Ok, you have quit!";
             default:
                 return "That's not a valid answer! Silly goose.";
