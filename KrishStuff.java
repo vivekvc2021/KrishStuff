@@ -1,15 +1,5 @@
 import java.util.*;
 
-/*
-Krish Stuff:
-Harlem
-The Bean
-Srinjoy
-Short
-Super Mario Galaxy Scandal
-
- */
-
 public class KrishStuff {
     private static final String menu = "Krish Stuff Database \n" +
             "Which would you like to learn about? Please type in the corresponding number.\n" +
@@ -18,7 +8,10 @@ public class KrishStuff {
             "3. Chicago's Famous Sculpture\n" +
             "4. The Height Story\n" +
             "5. The Scandal in the Galaxy of Super Mario\n" +
-            "6. [Quit]";  // @TODO
+            "6. The History of Age\n" +
+            "7. The Fable of Vision\n" +
+            "8. The Chronicle of Thomas\n" +
+            "9. [Quit]";  // @TODO
 
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
@@ -70,6 +63,12 @@ public class KrishStuff {
                         "over-dramatasizes this by referring to it as the 'Super Mario Galaxy Scandal', when in" +
                         "reality it is quite civil and not at all a scandal.";
             case "6":
+                return "The History of Age\n" + "";
+            case "7":
+                return "The Fable of Vision\n" + "";
+            case "8":
+                return "The Chronicle of Thomas\n" + "";
+            case "9":
                 return "Ok, you have quit!";
             default:
                 return "That's not a valid answer! Silly goose.";
