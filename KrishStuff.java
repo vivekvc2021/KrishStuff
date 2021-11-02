@@ -13,7 +13,8 @@ public class KrishStuff {
             "8. The Chronicle of Thomas\n" +
             "9. The Abused Lunchbox\n" +
             "10. Protecting the Second Amendment\n" +
-            "11. [Quit]";
+            "11. Ranch\n" +
+            "12. [Quit]";
 
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
@@ -29,7 +30,7 @@ public class KrishStuff {
             System.out.println();
             System.out.println(menu);
             String answer = scanner.nextLine();
-            if (answer.equals("11")) {
+            if (answer.equals("12")) {
                 keepGoing = false;
                 break;
             } else {
@@ -95,6 +96,9 @@ public class KrishStuff {
                         "and his property was justly seized. Krish was promptly placed on the FBI watchlist, and remains\n" +
                         "there to this day (probably).";
             case "11":
+                return "Krish likes ranch on pizza. Therefore, he is a bad person. There is nothing more to say\n" +
+                        "on this subject.";
+            case "12":
                 return "Ok, you have quit!";
             default:
                 return "That's not a valid input! Silly goose.";
