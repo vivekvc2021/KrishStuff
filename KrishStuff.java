@@ -109,7 +109,7 @@ public class Krish Stuff {
                 return "The Fecal Interruption\n" + "On the thirty-first of October, Krish, with his friends Khalil\n" +
                         "and Venjamin, walked to their friend Tyrone's room. Tyrone was acting very suspicious, so\n" +
                         "Krish thought it would be a good idea to open up her door. It was not a good idea.\n" +
-                        "Krish ended up seeing our friend Nihar taking a massive dump in the toilet (witnesses\n" +
+                        "Krish ended up seeing his friend Nihar taking a massive dump in the toilet (witnesses\n" +
                         "say the dump was so massive that the toilet ended up overflowing). To this day, Krish\n" +
                         "is scarred from the sight, and continues to mention it daily.";
             case "14":
