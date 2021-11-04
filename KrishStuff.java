@@ -102,7 +102,7 @@ public class Krish Stuff {
                         "on this subject.";
             case "12":
                 return "The Unit of Measurement\n" + "Brian is a unit of measurement incessently utilized by Krish. The term 'Brian' was\n" +
-                        "derived from the name of the boyfriend of the roommate of Krish's friend, Tyrone.\n" +
+                        "derived from the name (and nose) of the boyfriend of the roommate of Krish's friend, Tyrone.\n" +
                         "The unit of Brian can be applied with any length measurement (similar to an inch or a foot).\n" +
                         "The units of Brian-squared and Brian-cubed also exist for area and volume respectively.";
             case "13":
