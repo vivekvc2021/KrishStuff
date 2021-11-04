@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class KrishStuff {
+public class Krish Stuff {
     private static final String menu = "Krish Stuff Database \n" +
             "Which would you like to learn about? Please type in the corresponding number.\n" +
             "1. The Tale of the Homeland\n" +
@@ -14,7 +14,9 @@ public class KrishStuff {
             "9. The Abused Lunchbox\n" +
             "10. Protecting the Second Amendment\n" +
             "11. Ranch\n" +
-            "12. [Quit]";
+            "12. The Unit Of Measurement\n" +
+            "13. The Fecal Interruption\n" +
+            "14. [Quit]";
 
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
@@ -23,14 +25,14 @@ public class KrishStuff {
         Thread.sleep(3000);
         System.out.println("This database was made by Vivek Chudasama, an exemplary student procrastinating on his" +
                 " computer science midterm :) \nHe made this database as a present for Krish's " +
-                "8th -- sorry, 18th -- birthday. Happy birthday buddy.");
+                "8th -- sorry, 18th -- birthday, November 2nd, 2021. Happy birthday buddy.");
         Thread.sleep(3000);
         boolean keepGoing = true;
         while (keepGoing) {
             System.out.println();
             System.out.println(menu);
             String answer = scanner.nextLine();
-            if (answer.equals("12")) {
+            if (answer.equals("14")) {
                 keepGoing = false;
                 break;
             } else {
@@ -96,9 +98,21 @@ public class KrishStuff {
                         "and his property was justly seized. Krish was promptly placed on the FBI watchlist, and remains\n" +
                         "there to this day (probably).";
             case "11":
-                return "Krish likes ranch on pizza. Therefore, he is a bad person. There is nothing more to say\n" +
+                return "Ranch\n" + "Krish likes ranch on pizza. Therefore, he is a bad person. There is nothing more to say\n" +
                         "on this subject.";
             case "12":
+                return "The Unit of Measurement\n" + "Brian is a unit of measurement incessently utilized by Krish. The term 'Brian' was\n" +
+                        "derived from the name of the boyfriend of the roommate of Krish's friend, Tyrone.\n" +
+                        "The unit of Brian can be applied with any length measurement (similar to an inch or a foot).\n" +
+                        "The units of Brian-squared and Brian-cubed also exist for area and volume respectively.";
+            case "13":
+                return "The Fecal Interruption\n" + "On the thirty-first of October, Krish, with his friends Khalil\n" +
+                        "and Venjamin, walked to their friend Tyrone's room. Tyrone was acting very suspicious, so\n" +
+                        "Krish thought it would be a good idea to open up her door. It was not a good idea.\n" +
+                        "Krish ended up seeing our friend Nihar taking a massive dump in the toilet (witnesses\n" +
+                        "say the dump was so massive that the toilet ended up overflowing). To this day, Krish\n" +
+                        "is scarred from the sight, and continues to mention it daily.";
+            case "14":
                 return "Ok, you have quit!";
             default:
                 return "That's not a valid input! Silly goose.";
